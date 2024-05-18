@@ -122,23 +122,30 @@
 // 13-masala
 
 // alert("3  son berilgan ushlardan ortachasini  aniqlab beruvchi programa tuzulsizn ");
-// let s = +prompt('s');
+let u = +prompt('u');
 
-// let d = +prompt('d');
+let B = +prompt('B');
 
-// let C = +prompt('C');
+let g = +prompt('g');
 
-// let m ;
+let max ;
 
-// if ( s > d ) {
-// m = s } ;
-// if (s < C){
-//  m = s} 
+let norm ;
 
-//  if ( s < d ) {
-//     m = d } ;
-//     if (d < C){
-//      m = d} console.log(m);
+let min ;
+
+if (u > B){
+max = u,min = B} else {
+
+max = B,min = u} if(max < g){
+
+norm = max} else if (g < min){
+
+norm = min} else{
+
+norm = g}
+
+console.log(norm);
 
 
 // 14-masala
